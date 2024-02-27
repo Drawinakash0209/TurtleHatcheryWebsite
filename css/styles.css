@@ -1,0 +1,1668 @@
+@import url('https://fonts.cdnfonts.com/css/horizon');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  body{
+   
+    background-color: black;
+  }
+
+  /*................Navigation bar................*/
+  
+  .nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+    list-style: none;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right,#fff, #6effcd, #00d4ff,#080768) 1;
+  
+
+    
+
+  }
+  label.logo{
+    
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+    font-family:'Poiret One', cursive;
+    color: #6be0b7;
+    text-transform: uppercase;
+  }
+  .nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  
+  .nav ul li{
+    display: inline-block;
+
+    padding-top: 20px;
+    padding-left: 10px;
+   
+    text-align: center;
+  }
+  .nav ul li a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    padding: 0 13px 0 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-align: justify;
+  }
+  .nav ul li a:hover{
+    color: #6EFFCD;
+    letter-spacing: 2px;
+    transition: 1s;
+  }
+  .nav ul li:nth-child(5)
+  {
+    display: none;
+  }
+  .nav ul li:nth-child(6)
+  {
+    display: none;
+  }
+  
+ 
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  .nav ul li .dropdown {
+    width: 10%;
+    height: 15vh;
+    background-color: black;
+    position: absolute;
+    z-index: 999999;
+    display: none;
+
+  }
+  .nav ul li .dropdown li{
+    display: block;
+  }
+  .nav ul li .dropdown li a{
+    color: #fff;
+    outline: #fff 2px;
+  }
+ 
+  .nav ul li:hover ul.dropdown{
+    display: block;
+  }
+  
+  .HikkaBTNcont {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+   
+    
+  }
+
+
+  #hikkaBTN {
+    padding: 15px 30px;
+    font-size: 20px;
+    width: 500px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  #hikkaBTN:hover{
+   transform: scale(1.2);
+  }
+
+
+
+  /*.....................Footer..................... */
+  .footer-container{
+    max-width: 1170px;
+    margin: auto;
+}
+.hatchery-footer{
+    background: #24262b;
+    padding:70px 0;
+
+
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 10px;
+    
+}
+#copy{
+  text-align: center;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position: relative;
+
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: aqua;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+
+}
+
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col p {
+  font-family:  'Poppins', sans-serif;
+  color:   #fff;
+}
+.hatchery-footer ul li{
+    padding-bottom: 10px;
+}
+.hatchery-footer ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: all .3s;
+     font-family:  'Poppins', sans-serif; 
+
+}
+
+.footer-col ul li a:hover{
+    color: #fff;
+    padding-left: 5px;
+}
+
+
+  /*...........backgrounf photo with text in the middle............*/
+
+  section{
+    background: url(../photos/homepage/welcome.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+  }
+  .text-box {
+    width:90%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+/* ......... Introduction..............*/
+
+
+.wrapper{
+    display: flex;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+.text-box1{
+    color: azure;
+    width: auto;
+    margin-top: 20px;
+    padding: 0 0 50px 0 ;
+}
+.text-box1 h2{
+    font-size: 60px;
+    font-family:  'Poppins', sans-serif;
+    text-decoration: underline  #6EFFCD;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 6px #0ef6cc;
+}
+#highlight{
+    color: #6EFFCD; 
+    text-transform:uppercase; 
+    font-family:  'Poppins', 
+    sans-serif;
+    font-size: 40px;
+}
+.text-box1 p{
+    text-align: left;
+   
+    font-family:  'Poppins', sans-serif;
+   
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/*...........why turtles are important section with unorderrd list.........*/
+
+.importants{
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+ 
+ }
+ .importants h2{
+     font-size: 60px;
+     font-family:  'Poppins', sans-serif;
+     color: #fff;
+     text-transform: uppercase;
+     text-shadow: 3px 3px 6px #0ef6cc;
+ }
+ .importants ul li{
+     font-family:  'Poppins', sans-serif;
+ 
+ 
+ }
+ .importants ul li h4{
+     color: #6EFFCD;
+     font-size: 30px;
+ }
+ .importants ul li p{
+    font-size: 15px;
+    font-family:  'Poppins', sans-serif;
+    color: #fff;
+ }
+ 
+
+
+
+ 
+/*.........horizontal photo with 100% width..........*/
+
+.second-main-photo{
+    background: url(../photos/homepage/Sl.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60%;
+   
+      
+  }
+ 
+
+  /*.............Incubation..............*/
+
+  .incubation{
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 40px;
+    padding-bottom: 2%;
+
+}
+.incubation h2{
+    font-family:'Poppins', sans-serif ;
+    color: #fff;
+    font-size: 60px;
+    padding-bottom: 10px;
+    text-shadow: 3px 3px 6px #0ef6cc;
+} 
+.incubation p{
+    text-align: left;
+    color: #fff;
+   
+    font-family:  'Poppins', sans-serif;
+   
+    font-size: 20px;
+    margin-bottom: 50px;
+
+}
+.homepageHorizontalpic{
+  width: 100%; 
+  height: auto;
+}
+
+
+/*...................srilanka places........................*/
+.srilanka-places{
+    margin-top: 5%;
+margin-left: 7%;
+margin-right: 40px;
+padding-bottom: 2%;
+}
+.srilanka-places h2{
+    font-size: 60px;
+    font-family:  'Poppins', sans-serif;
+    color: #fff;
+    text-shadow: 3px 3px 6px #0ef6cc;
+    text-transform: uppercase;
+}
+.srilanka-places p{
+    text-align: left;
+    color: #fff;
+    font-family:  'Poppins', sans-serif;
+   
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+.srilanka-places li{
+    font-family:  'Poppins', sans-serif;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #6EFFCD;
+    margin-bottom: 20px;
+}
+
+
+.verticlebg-categories{
+  background: url(../photos/categories/beautiful-nature-g3177943fd_1920.jpg);
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  
+ 
+    
+}
+
+/* ...............Turtle Species.............*/
+.Turtle-Species-of-SriLanka{
+  margin-top: 3%;
+  margin-left: 7%;
+  margin-right: 7%;
+  background-position: 50%;
+  padding-top: 2%;
+  margin-bottom: 20px;
+
+}
+.Turtle-Species-of-SriLanka h2{
+  font-size: 60px;
+  font-family:  'Poppins', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 6px #0ef6cc;
+}
+
+.Turtle-Species-of-SriLanka p{
+  text-align: left;
+  color: #fff;
+ 
+  font-family:  'Poppins', sans-serif;
+ 
+  font-size: 20px;
+}
+
+/*.....................Species with photo and text......................*/
+
+
+.outer{
+   
+  display: flex;
+  margin-top: 3%;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right,#fff, #6effcd, #00d4ff,#080768) 1;
+  
+}
+
+
+.textandimage{
+width: 100%;
+max-width: 1170px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-gap: 10px;
+overflow-x: hidden;
+padding: 5rem 0;
+}
+
+.textandimage .img-wrapper{
+overflow: hidden;
+margin-left: 10%;
+}
+.textandimage .img-wrapper img{
+width: 440px;
+height: auto;
+object-fit: cover;
+transition: 0.3s;
+
+
+}
+
+.textandimage .img-wrapper:hover img{
+transform: scale(1.25);
+
+}
+
+.textandimage .contentWrapper{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 10px;
+}
+
+
+
+.textandimage .contentWrapper h2{
+font-family:  'Poppins', sans-serif;
+color: #fff;
+font-size: 40px;
+font-weight: 700;
+text-transform: uppercase;
+padding-bottom: 20px;
+text-shadow: 3px 3px 6px #0ef6cc;
+}
+
+.textandimage .contentWrapper  p{
+font-size: 15px;
+color: #fff;
+font-family:  'Poppins', sans-serif;
+line-height: 25px;
+padding-bottom: 25px;
+}
+.content a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  background-color: #0ef6cc;
+  border-radius: 15px;
+  padding: 2px 20px;
+}
+.content span{
+  color: #6EFFCD;
+}
+
+  
+/*..............Summery Table.................*/
+
+.turtle-nesting-beaches{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.turtle-nesting-beaches h2{
+  font-family:'Poppins', sans-serif ;
+  float: inline-start;
+  margin-left: 7%;
+  color: #fff;
+  font-size: 60px;
+  padding-bottom: 3%;
+  text-shadow: 3px 3px 6px #0ef6cc;
+
+
+}
+.turtle-nesting-beaches table{
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 9px;
+  border-radius: 12px 12px 0px 0px;
+  overflow: hidden;
+  box-shadow: 0 5px 12px #6EFFCD ;
+}
+.turtle-nesting-beaches tr th{
+  color:black;
+  padding: 10px 12px;
+  font-family:  'Poppins', sans-serif;
+  background: #6EFFCD;
+  text-transform: uppercase;
+  
+
+}
+.turtle-nesting-beaches caption{
+  font-size: 15px;
+  font-family:  'Poppins', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+.turtle-nesting-beaches tr td{
+  color:black;
+  font-family:  'Poppins', sans-serif;
+  padding: 10px 12px;
+ 
+  
+
+}
+.turtle-nesting-beaches tr:nth-child(even){
+  background: #ededed;
+}
+.turtle-nesting-beaches p{
+  margin-top: 10px;
+  margin-left: 7%;
+  margin-right: 7%;
+  text-align: left;    
+  color: #fff;
+  font-family:  'Poppins', sans-serif;
+  font-size: 16px;}
+
+
+
+
+  /*..................Hikkaduwa turtle hatchery.................*/
+  
+.hikkaduwa-text-box{
+  width:100%;
+  height: 90vh;
+  background: url(../photos/hikkaduwa/SL3.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+.hikkaduwa-text-box h1{
+  padding: 20px;
+  font-size: 100px;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Bruno Ace SC', cursive;
+  padding-left: 5%;
+}
+
+.about-hikkaduwa{
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+
+}
+
+.about-hikkaduwa{
+  text-align: left;
+  color:#0ef6cc;
+ 
+  font-family:  'Poppins', sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hikkaduwa-things{
+  width:100%;
+  height: 90vh;
+  background: url(../photos/hikkaduwa/SL5.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  
+}
+.hikkaduwa-things-about{
+  margin-top: 2%;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-bottom: 2%;
+}
+.hikkaduwa-things-about h2{
+  font-family:'Poppins', sans-serif ;
+  text-shadow: 3px 3px 6px #0ef6cc;
+
+  color: #fff;
+  font-size: 50px;
+  padding-bottom: 3%;
+}
+.hikkaduwa-things-about p{
+  text-align: left;
+  color: #fff;
+ 
+  font-family:  'Poppins', sans-serif;
+ 
+  font-size: 20px;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*...................Hikkaduwa gallery..................*/
+
+
+.gallery h1{
+  font-family:'Poppins', sans-serif ;
+  text-shadow: 3px 3px 6px #0ef6cc;
+  color: #fff;
+  font-size: 50px;
+  padding-bottom: 3%;
+  margin-left: 7%;
+  margin-top: 5%;
+
+}
+
+.imgItems{
+  display:flex ;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.imgItems img{
+  width: 400px;
+  height: auto;
+}
+.img{
+  padding: 0 20px 20px;
+}
+.imgItems img:hover{
+opacity: .5;
+transition: 4s;
+}
+
+
+/*..................review...................*/
+
+.Hik-customerreview{
+  padding: 38px 0;
+  background: black;
+  color: #fff;
+  
+}
+.Hik-review-inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.Hik-review-inner h1{
+  font-family:'Poppins', sans-serif ;
+  text-shadow: 3px 3px 6px #0ef6cc;
+  color: #fff;
+  font-size: 50px;
+  padding-bottom: 3%;
+ 
+  margin-top: 5%;
+ 
+}
+.hik-review-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+ 
+
+}
+.hik-review-col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 16px;
+
+
+}
+.Hik-customerreview{
+  padding: 30px;
+}
+.Hik-customerreview img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+}
+.review-name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0 ;
+  color: #3affba;
+
+}
+
+/*...................Hikkaduwa Location......................*/
+
+
+.location{
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-bottom: 2%;
+
+}
+
+.location h2{
+  font-family:'Poppins', sans-serif ;
+  float: inline-start;
+  color: #fff;
+  font-size: 60px;
+  text-shadow: 3px 3px 6px #0ef6cc;
+  padding-bottom: 3%;
+
+}
+.locationbox{
+  width: 100%;
+}
+.location h3{
+  font-family:'Poppins', sans-serif ;
+  float: inline-start;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 3%;
+
+}
+/*...................Hikkaduwa message us......................*/
+
+.form-container{
+  width: 350px;
+  background-color: rgba(22,22,22,0.096);
+  padding: 20px;
+  color: #fff;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  border-radius: 10px;
+  
+}
+.form-container h2{
+  
+  font-family:'Poppins', sans-serif ;
+  float: inline-start;
+  color: #fff;
+  
+
+
+}
+
+.form-container input,button,textarea{
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px;
+
+}
+
+.form-container button{
+  cursor: pointer;
+  background-color: rgb(127,255,195);
+
+}
+.form-container button:active{
+  background-color: rgb(149, 241, 210);
+
+}
+
+.form-container button:hover{
+  background-color: rgba(69,240,183);
+
+}
+
+
+
+/* ............ Threats to Sea Turtles..........*/
+.threatswallpaper{
+  background: url(../photos/threats/plasticandturtle.jpeg);
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  
+ 
+    
+}
+
+.threats{
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+  
+}
+.threats h2{
+  font-family:'Poppins', sans-serif ;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  float: inline-start;
+  color: #fff;
+  text-shadow: 3px 3px 6px #0ef6cc;
+  font-size: 60px;
+  padding-bottom: 3%;
+}
+
+.threats p{
+  text-align: left;
+  color: #fff;
+ 
+  font-family:  'Poppins', sans-serif;
+ 
+  font-size: 20px;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+/*.................turtle threats and ways to solve it......................*/
+
+.threats-and-ways-to-solve{
+  width: 100%;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 10px;
+  overflow-x: hidden;
+  padding: 5rem 0;
+  }
+  
+  .threats-and-ways-to-solve .img-wrapper{
+  overflow: hidden;
+  margin-left: 15%;
+ 
+  }
+  .threats-and-ways-to-solve .img-wrapper img{
+  width: 440px;
+  height: 500px;
+  object-fit: cover;
+  transition: 0.3s;
+  }
+  
+
+  .threats-and-ways-to-solve .contentWrapper-threats{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+
+  }
+  
+
+  .threats-and-ways-to-solve .contentWrapper-threats h2{
+  font-family:  'Poppins', sans-serif;
+  letter-spacing: 5px;
+  text-shadow: 3px 3px 6px #0ef6cc;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  }
+  
+  .threats-and-ways-to-solve .contentWrapper-threats  p{
+  font-size: 20px;
+  color: #fff;
+  font-family:  'Poppins', sans-serif;
+  line-height: 25px;
+  padding-bottom: 25px;
+  }
+    
+
+
+
+
+  /*.............By catch and ways to prevent it......*/
+
+#check1{
+  display: none;
+  transition: 0.5s linear;
+}
+.threat{
+  color: black;
+  cursor: pointer;
+  font-family:  'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 5px;
+  border: solid  #6EFFCD 1px;
+  background-color: #0ef6cc;
+  border-radius: 20px;
+  margin-top: 5px;
+
+}
+.threat:hover{
+  background-color: #4A9C80;
+  transition: 0.5s;
+}
+.bycatch-howtosolve{
+  display: none;
+ 
+}
+
+#check1:checked ~ .bycatch-howtosolve{
+  display: block;
+}
+
+/*......Climate change...........*/
+
+
+#check2{
+  display: none;
+  transition: 0.5s linear;
+}
+
+.climate-change{
+  display: none;
+ 
+}
+.climate-change dt{
+  color: #fff;
+ 
+  font-family:  'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+
+}
+.climate-change dd{
+  color:  #6EFFCD;
+  
+  font-family:  'Poppins', sans-serif;
+
+  font-size: 15px;
+  padding-bottom: 10px;
+
+}
+#check2:checked ~ .climate-change{
+  display: block;
+}
+
+
+
+/*......Pollution......*/
+
+
+
+#check3{
+  display: none;
+  transition: 0.5s linear;
+}
+
+.pol-Path{
+  display: none;
+ 
+}
+.pol-Path dt{
+  color: #fff;
+ 
+  font-family:  'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  
+
+}
+.pol-Path dd{
+  color:  #6EFFCD;
+  
+  font-family:  'Poppins', sans-serif;
+
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+#check3:checked ~ .pol-Path{
+  display: block;
+}
+
+/*..............Direct Take.................*/
+
+
+#check4{
+  display: none;
+  transition: 0.5s linear;
+}
+
+.direct-take{
+  display: none;
+ 
+}
+.direct-take p{
+  color: #fff;
+ 
+  font-family:  'Poppins', sans-serif;
+  
+  font-size: 20px;
+}
+.direct-take dt{
+  color: #fff;
+ 
+  font-family:  'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  
+
+}
+.direct-take dd{
+  color:  #6EFFCD;
+  
+  font-family:  'Poppins', sans-serif;
+
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+#check4:checked ~ .direct-take{
+  display: block;
+}
+
+/*..............Coast line.................*/
+
+#check5{
+  display: none;
+  transition: 0.5s linear;
+}
+
+.coastline{
+  display: none;
+ 
+}
+
+.coastline dt{
+  color: #fff;
+ 
+  font-family:  'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  
+
+}
+.coastline dd{
+  color:  #6EFFCD;
+  
+  font-family:  'Poppins', sans-serif;
+
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.coastline .costlineul{
+  margin-left: 2%;
+}
+.coastline .costlineul li{
+  color:  #6EFFCD;
+  
+  font-family:  'Poppins', sans-serif;
+
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+#check5:checked ~ .coastline{
+  display: block;
+}
+/*........................Kosgoda and bentota link.....................*/
+.benAndcos{
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-bottom: 20px;
+}
+.benAndcos h2{
+  color:  #6EFFCD;
+  
+  font-family:  'Poppins', sans-serif;
+
+  font-size: 30px;
+  letter-spacing:  4px;
+}
+.benAndcos p{
+  color: #fff;
+  
+  font-family:  'Poppins', sans-serif;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.benAndcos ul li{
+  color: #fff;
+  
+  font-family:  'Poppins', sans-serif;
+
+  font-size: 18px
+}
+
+
+
+.videoContainer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.videocontent{
+  text-align: center;
+  
+}
+.videocontent h1{
+  color: #fff;
+  font-family:  'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-size: 90px;
+  margin-right: 2%;
+  margin-left: 2%;
+
+}
+.videocontent p {
+  font-size: 30px;
+ color: #fff;
+}
+.videobackground-clip{
+  position: absolute;
+  right: 0;
+  bottom:0;
+  z-index: -1;
+}
+
+
+
+
+/*..............Purchase and donation page.................*/
+
+
+/*......................................................................*/
+
+
+/*Donation page form*/
+.donation-paragraph{
+  font-family:  'Poppins', sans-serif;
+color: #fff;
+font-size: 20px;
+font-weight: 500;
+text-transform: uppercase;
+text-align: center;
+margin-top: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-bottom: 2%;
+}
+
+.donation-form{
+   
+  display: flex;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  background:url(../photos/purchaseanddonation/desktop-wallpaper-blue-aesthetics-vsco-aesthetic.jpg);
+  background-position: cover;
+
+  
+}
+
+
+.textAndForm{
+width: 100%;
+max-width: 1170px;
+display: grid;
+grid-template-columns: 1.5fr 1fr;
+grid-gap: 5%;
+overflow-x: hidden;
+padding: 5rem 0;
+}
+
+
+
+.textAndForm .form-para{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 10px;
+text-align: center;
+}
+
+.textAndForm .form-para h4{
+font-family:  'Poppins', sans-serif;
+color: #fff;
+font-size: 35px;
+font-weight: 700;
+text-transform: uppercase;
+padding-bottom: 20px;
+text-shadow: 3px 3px 6px #0ef6cc;
+}
+.textAndForm .form-all {
+  padding-left: 20px;
+  border-left: #6effcd solid 2px;
+}
+.textAndForm .form-all h2{
+  font-size: 40px;
+color: #6be0b7;
+font-family:  'Poppins', sans-serif;
+line-height: 25px;
+padding-bottom: 25px;
+text-shadow: 2px 2px black;
+}
+
+.textAndForm .form-para  p{
+font-size: 20px;
+font-weight: 500;
+color: #fff;
+font-family:  'Poppins', sans-serif;
+line-height: 25px;
+padding-bottom: 25px;
+text-shadow: 2px 2px black
+}
+
+.textAndForm .form-all label{
+  color: #fff;
+  font-size: 20px;
+  
+  font-family:  'Poppins', sans-serif;
+  text-transform: uppercase;
+  line-height: 40px;
+  padding-left: 5px;
+ 
+}
+.textAndForm .form-all form input{
+  padding: 10px 70px 10px;
+  
+  
+}
+.textAndForm .form-all button{
+ justify-content: center;
+ align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: rgb(127,255,195);
+  border-radius: 15px;
+  width:100px;
+
+}
+.textAndForm .form-all button:active{
+  background-color: rgb(149, 241, 210);
+
+}
+.textAndForm .form-all button:hover{
+  background-color: rgba(69,240,183);
+
+}
+
+.Damount{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+}
+
+
+/*....................Purchase items....................*/
+
+.purchase-outer{
+ 
+  padding: 15px 9%;
+  padding-bottom: 100px;
+
+}
+
+.purchase-outer #purchaseHeading{
+  text-align: center;
+  padding-bottom: 20px;
+  color: #fff;
+  text-shadow: 3px 3px 6px #0ef6cc;
+  font-size: 40px;
+  font-family:  'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+.purchase-outer .purchase-inner{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  gap: 15px;
+
+}
+
+.purchase-outer .purchase-inner .purchase-box{
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+  padding: 30px 20px;
+
+
+}
+.purchase-outer .purchase-inner .purchase-box img{
+  width: 250px;
+  height: auto;
+}
+.purchase-outer .purchase-inner .purchase-box h3{
+  color: black;
+  font-weight: 700;
+  font-family:  'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+.purchase-outer .purchase-inner .purchase-box p{
+  color: black;
+  font-family:  'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+
+.purchase-outer .purchase-inner .purchase-box .buybtn{
+  margin-top: 8px;
+  display: inline-block;
+  background: #6be0b7;
+  color: black;
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 6px;
+}
+.purchase-outer .purchase-inner .purchase-box:hover{
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  transform: scale(1.1);
+  transition: linear 0.5s;
+}
+.purchase-outer .purchase-inner .purchase-box .buybtn:hover{
+  letter-spacing: 1px;
+}
+@media (max-width: 1300px){
+  .nav ul li a{
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width: 1200px){
+    .nav ul li a{
+        font-size: 12px;
+      }
+      label.logo{
+        font-size: 15px;
+        padding-left: 10px;
+      }
+
+      .row .right .content{
+        padding-left: 0;
+      }
+      .nav ul li .dropdown{
+        display: none;
+      }
+      .table-wrapper{
+        max-height: 600px;
+        overflow-y: scroll;
+       
+     
+
+      }
+    
+      
+    }
+    
+@media (max-width:991px){
+      .textandimage{
+          grid-template-columns: 1fr;
+          grid-gap: 50px;
+      }
+      .textandimage .contentWrapper{
+          padding-left: 0;
+      }
+
+      .threats-and-ways-to-solve{
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+    }
+    .textAndForm{
+      grid-template-columns: 1fr;
+      grid-gap: 50px;
+  }
+}
+  
+
+   
+    @media (max-width: 858px){
+ 
+   /* .......Navbar settings for mobile display.............*/
+    .checkbtn{
+      display: block;
+    }
+    label.logo{
+        font-size: 20px;
+        padding-left: 10px;
+      }
+    .nav-links{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background:black;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+      z-index: 15;
+    
+    }
+    .nav .nav-links li{
+      display: block;
+      margin: 20px 0;
+      
+    }
+    .nav .nav-links li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color:   #3affba;
+    }
+    #check:checked ~ .nav-links{
+      left: 0;
+    }
+    .nav ul li .dropdown{
+      display: none;
+    }
+    .nav ul li:nth-child(5)
+    {
+      display: block;
+    }
+    .nav ul li:nth-child(6)
+    {
+      display: block;
+    }
+    .nav ul li:nth-child(7)
+    {
+      display: none;
+    }
+    
+    .text-box{
+        font-size: 40px;
+
+    }
+    .text-box{
+      height: auto;
+      width: auto;
+    }
+   
+    .text-box1 h2{
+        font-size: 30px;
+    }
+    .highlight{
+        
+        font-size: 20px;
+    }
+    .text-box1 p{
+         font-size: 15px;
+        
+    }
+   /*.......mobile display for importants............*/
+     .importants h2{
+         font-size: 30px;
+        
+     }
+     #highlight{
+      font-size: 20px;
+  }
+  
+     
+     
+     
+     .importants ul li h4{
+         font-size: 20px;
+     }
+     .importants ul li p{
+        font-size: 15px;
+        
+     }
+
+     /*.............Incubation part for mobile screen..............*/
+
+
+.incubation h2{
+   
+    font-size: 30px;
+} 
+.incubation p{
+   
+    font-size: 15px;
+  
+
+}
+ 
+/*.................srilanka places...................*/
+
+.srilanka-places h2{
+    font-size: 30px;
+   
+}
+.srilanka-places p{
+    font-size: 15px;
+  
+
+}
+.srilanka-places li{
+   
+    font-size: 25px;
+   
+}
+/*.................turtle species mobile...................*/
+
+.Turtle-Species-of-SriLanka h2{
+  font-size: 30px;
+  
+}
+
+.Turtle-Species-of-SriLanka p{
+  
+ 
+  font-size: 15px;
+}
+
+.textandimage{
+  width: auto;
+}
+.textandimage .contentWrapper h2{
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.textandimage .contentWrapper p{
+  line-height: 24px;
+}
+
+/*..................Hikkaduwa.......................*/
+
+.hikkaduwa-text-box h1{
+  font-size: 30px;
+}
+.about-hikkaduwa{
+  font-size: 15px;
+}
+.hikkaduwa-things-about h2{
+  font-size: 30px;
+}
+.hikkaduwa-things-about p{
+  font-size: 15px; 
+}
+.gallery h2{
+  font-size: 30px;
+}
+.location h2{
+  font-size: 30px;
+}   
+.hikkaduwa-text-box{
+  height: auto;
+}
+.hikkaduwa-things{
+  width:100%;
+  height: 50vh;
+ background-position: 60%;
+  
+}
+/*....................Threats.........................*/
+
+  }
+
+  @media (max-width:600px){
+    
+    .textandimage .contentWrapper h2{
+        font-size: 25px ;
+    }
+    .textandimage .contentWrapper p{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .hik-review-col{
+      flex: 100%;
+      max-width: 80%;
+
+    }
+
+
+ /*''''''''''''''''''''phone display - threats and ways to solve it''''''''''''''''''''''*/
+ .threats h2{
+  font-size: 30px;
+  
+}
+
+.threats p{
+  font-size: 15px;
+
+}
+
+
+  .threats-and-ways-to-solve .contentWrapper-threats h2{
+      font-size: 25px ;
+  }
+  .threats-and-ways-to-solve .contentWrapper-threats p{
+      font-size: 15px;
+      line-height: 22px;
+  }
+  .threats-and-ways-to-solve .img-wrapper{
+   
+    margin-left: 5%;
+    margin-right: 5%;
+   
+
+}
+  .videobackground-clip{
+    width: auto;
+    height: 100%;
+  }
+  .videocontent h1{
+    font-size: 50px;
+  }
+
+  .footer-col{
+    width: 100%;
+}
+.content a{
+  
+  padding: 1px 10px;
+}
+  }

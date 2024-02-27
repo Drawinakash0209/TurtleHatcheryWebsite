@@ -1,0 +1,332 @@
+
+@keyframes fade-down {
+  0%{
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+  
+}
+
+@keyframes lefttoright {
+  from{
+    left: 0;
+  }
+  to{
+    left: 10px;
+  }
+  
+}
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #fcde67;
+}
+
+
+.bentota-main-image img{
+   width: 100%;
+   height: 75vh;
+   animation: fade-down  0.5s  ;
+}
+
+
+.bentotaNavbar ul{
+    list-style: none;
+    background-color: #030e12;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    animation: fade-down  0.5s;
+
+}
+.bentotaNavbar ul li{
+    display: inline-block;
+}
+.bentotaNavbar ul li a{
+    display: block;
+    text-decoration: none;
+    color:#fcde67;
+    width: 100px;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bentotaNavbar ul li a:hover{
+  color: #5bccf6;
+}
+.bentota{
+    margin-left: 7%;
+    margin-right: 7%;
+    animation: lefttoright  0.7s;
+}
+.bentota h1{
+  background: #5bccf6;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 4px;
+  font-weight: 700;
+  font-size: 50px;
+}
+.bentota p{
+  color: #416a59;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  font-size: 15px;
+
+}
+.bentota2nimg img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+.bentota-turtle-types{
+    padding: 15px 9%;
+    padding-bottom: 100px;
+  }
+  
+  
+  .bentota-turtle-types .bentota-turtle-types-inner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 15px;
+  
+  }
+  
+  .bentota-turtle-types .bentota-turtle-types-inner .bentota-turtle-box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: black;
+    text-align: center;
+    padding: 30px 20px;
+  
+  
+  }
+  .bentota-turtle-types .bentota-turtle-types-inner .bentota-turtle-box img{
+    width: 250px;
+    height: auto;
+  }
+  .bentota-turtle-types .bentota-turtle-types-inner .bentota-turtle-box h3{
+    color: #fff;
+    font-weight: 700;
+    font-family:  'Poppins', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .bentota-turtle-types .bentota-turtle-types-inner .bentota-turtle-box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.05);
+    transition: linear 0.3s;
+  }
+  .bentota-turtle-types .bentota-turtle-types-inner .bentota-turtle-box .buybtn:hover{
+    letter-spacing: 1px;
+  }
+
+  
+.gallery-bentota h1{
+  background: #5bccf6;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 4px;
+  font-weight: 700;
+  font-size: 50px;
+  margin-left: 7%;
+  margin-right: 7%;
+  
+  }
+  
+  
+  .bentota-imgItems{
+    display:flex ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+
+  
+  }
+  .bentota-imgItems img{
+    width: 400px;
+    height: auto;
+  }
+  .ben-img{
+    padding: 0 20px 20px;
+  }
+
+
+
+
+/*.......................Bentota-Location........................*/
+
+  .bentota-location{
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-bottom: 2%;
+  
+  }
+  
+  .bentota-location h2{
+    font-family:'Poppins', sans-serif ;
+    float: inline-start;
+    color: black;
+    font-size: 60px;
+
+
+  
+  }
+  .bentota-location-box{
+    width: 100%;
+  }
+  .bentota-location h2{
+    background: #5bccf6;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 50px;
+   
+  
+  }
+  .bentota-location h3{
+
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+
+  /*....................Bentota Form..................*/
+  
+  .bentota-form-container{
+    width: 1000px;
+    background-color: rgba(22,22,22,0.096);
+    padding: 20px;
+    color: #fff;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    border-radius: 30px;
+    
+  }
+  .bentota-form-container h2{
+    
+    font-family:'Poppins', sans-serif ;
+    float: inline-start;
+    color: #fff;
+    
+  
+  
+  }
+  
+  .bentota-form-container input,button,textarea{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 10px;
+  
+  }
+  
+  .bentota-form-container button{
+    cursor: pointer;
+    background-color: #5bccf6;
+  
+  }
+  .bentota-form-container button:active{
+    background-color: rgb(149, 241, 210);
+  
+  }
+  
+  .bentota-form-container button:hover{
+    background-color: rgba(69,240,183);
+  
+  }
+  
+
+  .customerreview{
+    padding: 38px 0;
+    background: #fcde67;
+    color: #434343;
+    text-align: center;
+  }
+  .review-inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  .review-inner h1{
+    background: #5bccf6;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 50px;
+   
+  }
+  .review-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  .review-col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 16px;
+
+  }
+  .customerreview{
+    padding: 30px;
+  }
+  .customerreview img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+  }
+  .review-name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0 ;
+
+  }
+
+  
+@media (max-width: 858px){
+    .bentotaNavbar ul li a{
+        font-size: 10px;
+        width:auto;
+        width: 75px;
+        padding: 10px 2px;
+        font-weight: normal;
+    }
+    .bentota-main-image img{
+        height: auto;
+    }
+    .bentota-form-container{
+      width: auto;
+    }
+    .review-col{
+      flex: 100%;
+      max-width: 80%;
+
+    }
+
+}

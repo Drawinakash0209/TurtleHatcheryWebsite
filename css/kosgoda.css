@@ -1,0 +1,362 @@
+
+    @keyframes color {
+        0%{
+            background-position: 0 50%;
+        }
+        0%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+
+        
+    }
+  
+  
+  
+  
+  body{
+      padding: 0;
+      margin: 0;
+     
+  }
+  .kosgoda-background{
+    background: linear-gradient(45deg,#d2001a,#7463ff,#f48e21,#23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+
+  }
+  
+  
+  .kosgoda-main-image img{
+     width: 100%;
+     height: 75vh;
+     
+  }
+  
+  
+  .kosgodaNavbar ul{
+      list-style: none;
+      background-color: #030e12;
+      
+      border-radius: 50px;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    
+  
+  }
+  .kosgodaNavbar ul li{
+      display: inline-block;
+  }
+  .kosgodaNavbar ul li a{
+      display: block;
+      text-decoration: none;
+      color:#fff;
+      width: 100px;
+      padding: 25px 20px;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: bold;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .kosgodaNavbar ul li a:hover{
+    color: #fcde67;
+    letter-spacing: 3px;
+  }
+  .kosgoda{
+      margin-left: 7%;
+      margin-right: 7%;
+      animation: lefttoright  0.7s;
+      margin-bottom: 5%;
+      margin-top: 4%;
+  }
+  .kosgoda #Facilities{
+    text-decoration: underline overline;
+
+  }
+  .kosgoda #introduction{
+    margin-top: 20px;
+    padding: 5px 0 5px 0;
+    text-decoration: underline overline;
+  }
+  .kosgoda h1{
+    text-align: center;
+   letter-spacing: 10px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    
+  }
+  .kosgoda p{
+    color: #460a40;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+  
+  }
+  .kosgoda ol{
+    color: #137159;
+    font-size: 22px;
+    font-family:  'Poppins', sans-serif;
+  }
+  .kos2nimg img{
+    width: 100%;
+    height: 80vh;
+  }
+  #TurtleSpecies{
+    text-decoration: underline overline;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .kosgoda-turtle-types{
+      padding: 15px 9%;
+      padding-bottom: 100px;
+    }
+    
+    
+    .kosgoda-turtle-types .kosgoda-turtle-types-inner{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+      gap: 15px;
+    
+    }
+    
+    .kosgoda-turtle-types .kosgoda-turtle-types-inner .kosgoda-turtle-box{
+      box-shadow: 0 5px 10px rgba(0,0,0,.2);
+      border-radius: 5px;
+      background: black;
+      text-align: center;
+      padding: 30px 20px;
+    
+    
+    }
+    .kosgoda-turtle-types .kosgoda-turtle-types-inner .kosgoda-turtle-box img{
+      width: 250px;
+      height: auto;
+    }
+    .kosgoda-turtle-types .kosgoda-turtle-types-inner .kosgoda-turtle-box h3{
+      color: #fff;
+      font-weight: 700;
+      font-family:  'Poppins', sans-serif;
+      text-transform: uppercase;
+    }
+  
+    .kosgoda-turtle-types .kosgoda-turtle-types-inner .kosgoda-turtle-box:hover{
+      box-shadow: 0 10px 15px rgba(0,0,0,.3);
+      transform: scale(1.05);
+      transition: linear 0.3s;
+    }
+   
+    
+  .gallery-kosgoda h1{
+   
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 10px;
+    text-decoration: underline overline;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    }
+    
+    
+    .kosgoda-imgItems{
+      display:flex ;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  
+      
+  
+    
+    }
+    .kosgoda-imgItems img{
+      width: 400px;
+      height: auto;
+    }
+    .kos-img{
+      padding: 0 20px 20px;
+    }
+  
+  
+  
+  
+  /*.......................Bentota-Location........................*/
+  
+    .kosgoda-location{
+      margin-top: 5%;
+      margin-left: 7%;
+      margin-right: 7%;
+      padding-bottom: 2%;
+    
+    }
+    
+    .kosgoda-location h2{
+      font-family:'Poppins', sans-serif ;
+      float: inline-start;
+      color: black;
+      font-size: 60px;
+  
+  
+    
+    }
+    .kosgoda-location-box{
+      width: 100%;
+    }
+  
+    .kosgoda-location h3{
+  
+      color: black;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+      font-weight: 700;
+      font-size: 30px;
+    }
+  
+  
+    /*....................Bentota Form..................*/
+    
+    .kosgoda-form-container{
+      width: 1000px;
+      background-color: rgba(22,22,22,0.096);
+      padding: 20px;
+      color: #fff;
+      gap: 20px;
+      display: flex;
+      flex-direction: column;
+      margin: 40px auto;
+      border-radius: 30px;
+      
+    }
+    .kosgoda-form-container h2{
+      
+      font-family:'Poppins', sans-serif ;
+      float: inline-start;
+      color: #fff;
+      
+    
+    
+    }
+    
+    .kosgoda-form-container input,button,textarea{
+      border: none;
+      outline: none;
+      border-radius: 4px;
+      padding: 10px;
+    
+    }
+    
+    .kosgoda-form-container button{
+      cursor: pointer;
+      background-color: #5bccf6;
+    
+    }
+    .kosgoda-form-container button:active{
+      background-color: rgb(149, 241, 210);
+    
+    }
+    
+    .kosgoda-form-container button:hover{
+      background-color: rgba(69,240,183);
+    
+    }
+    
+  
+    .customerreview{
+      padding: 38px 0;
+      background: #fff;
+      color: #434343;
+      text-align: center;
+      font-family:  'Poppins', sans-serif;
+    }
+    .review-inner{
+      max-width: 1200px;
+      margin: auto;
+      overflow: hidden;
+      padding: 0 20px;
+    }
+    #Location{
+        margin-top: 2%;
+        text-decoration: underline overline;
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        letter-spacing: 10px;
+        text-align: center;
+       
+    }
+    .review-inner h1{
+    margin-top: 2%;
+      text-decoration: underline overline;
+      color: black;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      letter-spacing: 10px;
+     
+     
+    }
+    .review-row{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+    }
+    .review-col{
+      flex: 33.33%;
+      max-width: 33.33%;
+      box-sizing: border-box;
+      padding: 16px;
+  
+    }
+    .customerreview{
+      padding: 30px;
+    }
+    .customerreview img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+  
+    }
+    .review-name{
+      font-size: 20px;
+      text-transform: uppercase;
+      margin: 20px 0 ;
+      color: #fff;
+      background: #030e12;
+      border-radius: 50px;
+  
+    }
+  
+    
+  @media (max-width: 858px){
+      .kosgodaNavbar ul li a{
+          font-size: 10px;
+          width:auto;
+          width: 75px;
+          padding: 10px 2px;
+          font-weight: normal;
+      }
+      .kosgoda-main-image img{
+          height: auto;
+      }
+      .kosgoda-form-container{
+        width: auto;
+      }
+      .review-col{
+        flex: 100%;
+        max-width: 80%;
+  
+      }
+      .kos2nimg img{
+       
+        height: auto;
+      }
+    
+  
+  }
